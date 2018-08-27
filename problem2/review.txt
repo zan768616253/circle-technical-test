@@ -1,0 +1,28 @@
+1.
+
+!@auth_account.admin_at(@site) && !@auth_account.manager_at(@site) && !@auth_account.staff_at(@site)
+
+can be put into auth_account model, so that the code will be much cleaner
+
+def has_permission_at?(site)
+    admin_at(@site) || manager_at(@site) || staff_at(@site)
+end
+
+2.
+
+redirect_to root_url => redirect_to root_url and return
+
+3.
+
+@address.destroy may fail =>
+
+if @address.destroy
+    flash[:success]="Address deleted successfully"
+else
+    ...
+
+4.
+
+@address can be only private variable
+
+

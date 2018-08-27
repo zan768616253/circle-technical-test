@@ -1,0 +1,22 @@
+1.
+
+Never use Apache, sorry.
+
+For Java, I use Tomcat for debugging, Or I use Nginx for loadblance or redirection.
+
+2.
+
+do you mean sudo apt-get install --only-upgrade <packagename> ?
+
+3.
+
+nano in terminal. for ubuntu I use VSC
+
+4.
+
+never did that before
+
+5.
+
+If I remember correctly, it should be /etc
+
